@@ -3,12 +3,12 @@ const app = express(); //iniciando o express
 
 //criando a rota inicial
 app.get("/", function(req,res){
-    res.send("<h1>Bem vindo ao meu site novamente!</h1>");
+    res.send("<h1>Bem vindo ao meu site do teste 2!</h1>");
 })
 
 //rota do cadastro de produtos
 app.get("/produtos", function(req,res){
-    res.send("<h1>Lista de Produtos!</h1>");
+    res.send("<h1>Lista de Produtos do teste 2!</h1>");
 })
 
 //rota com parametro 
